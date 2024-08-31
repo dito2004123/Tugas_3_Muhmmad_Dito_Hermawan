@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#8be9f4"
+    tools:context=".activitypagetable">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        >
+
+        <TableRow
+            android:background="#9ab4e5">
+            <TextView
+                android:layout_column="1"
+                android:text="OPEN"
+                android:padding="3dp" />
+
+            <TextView
+                android:text="CTRL + Q"
+                android:gravity="right"
+                android:padding="3dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="428dp"
+                android:layout_column="1"
+                android:background="#608ce1"
+                android:padding="3dp"
+                android:text="Save" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFF00">
+            <TextView
+                android:layout_column="1"
+                android:text="QUIT"
+                android:padding="3dp" />
+
+            <TextView
+                android:text="CTRL + Q"
+                android:gravity="right"
+                android:padding="3dp" />
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFF00">
+            <TextView
+                android:layout_column="1"
+                android:text="Exit"
+                android:padding="3dp"/>
+        </TableRow>
+
+    </TableLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
